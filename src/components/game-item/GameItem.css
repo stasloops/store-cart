@@ -1,0 +1,51 @@
+.game-item{
+    width: 33.33333%;
+    display: inline-block;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.game-item__img{
+    width: 100%;
+    max-width: 280px;
+    max-height: 125px;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+    position: relative;
+    top: 4px;
+   
+}
+
+.game-item__content{
+    width: 100%;
+    max-width: 250px;
+    height: 80px;
+    border-radius: 0 0 10px 10px;
+    background-color: rgb(38, 40, 46);
+    padding: 15px;
+   
+    position: relative;
+    
+    
+}
+.game-item__title{
+    margin: 0;
+    position: absolute;
+    font-size: 20px;
+}
+
+.game-item__buy{
+    position: absolute;
+    bottom: 15px;
+    
+}
+
+.genres-items{
+    margin-right: 7px;
+    background-color: rgb(97, 97, 97);
+    border-radius: 20px;
+    padding: 1px 4px;
+    font-size: 15px;
+}
+
+

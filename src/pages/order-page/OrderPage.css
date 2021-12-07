@@ -1,0 +1,11 @@
+.cart-total__price{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cart-length{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,18 @@
+.game-item__add-cart{
+    color:rgb(38, 40, 46);
+    padding: 4px 8px;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: 700;
+
+}
+
+.purple{
+    background-color: rgb(109, 85, 243);
+}
+
+.grey{
+    background-color: rgb(143, 143, 143);
+}

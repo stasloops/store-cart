@@ -1,0 +1,13 @@
+.header{
+   display: flex;
+   justify-content: space-between;
+ 
+   padding: 20px 5px;
+   margin-bottom: 40px;
+}
+
+.header__store-title{
+    font-size: 30px;
+    color: rgb(172, 168, 168);
+    font-weight: 700;
+}
