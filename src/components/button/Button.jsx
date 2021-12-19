@@ -6,7 +6,7 @@ import { deleteItemFromCart, setItemInCart } from '../../store/cartSlise/getCart
 const Button = ({id, item}) => {
     const dispatch = useDispatch()
     const cart = useSelector(state => state.cart.cartState)
-    const haveIdItem = cart.some((some) => some.id === item.id)
+    const haveIdItem = cart.some((some) => some.id === id)
 
     const changeItemInCart = () =>{
         if(haveIdItem){

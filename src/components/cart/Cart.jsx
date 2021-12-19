@@ -14,7 +14,7 @@ const Cart = () => {
     return (
         <div className="cart">
             <div className="cart-icon" style={{cursor:'pointer'}} onClick={toggleSwitch}>
-                cart
+                <img className="cart-img" src="img/shopping-cart.png"/>
                 <span className={cart.length > 0 ? "cart-total-price" : ''}>{cart.length > 0 ? cart.length : ''}</span>
             </div>
             {
