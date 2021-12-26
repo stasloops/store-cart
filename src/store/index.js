@@ -6,5 +6,6 @@ export const store = configureStore({
   reducer: {
       game: gameReducer,
       cart: cartReducer,
+      
   },
 })

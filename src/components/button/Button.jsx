@@ -7,7 +7,6 @@ const Button = ({id, item}) => {
     const dispatch = useDispatch()
     const cart = useSelector(state => state.cart.cartState)
     const haveIdItem = cart.some((some) => some.id === id)
-
     const changeItemInCart = () =>{
         if(haveIdItem){
             dispatch(deleteItemFromCart(id))
@@ -16,6 +15,7 @@ const Button = ({id, item}) => {
             dispatch(setItemInCart(item))
         }
     }
+    
     return (
         <button onClick={changeItemInCart} className={`game-item__add-cart ${haveIdItem? 'grey' : 'purple'}`}>{haveIdItem? 'удалить из корзины' : 'В корзину'}</button>
     )

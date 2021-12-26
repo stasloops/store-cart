@@ -92,7 +92,6 @@ const HomePage = () => {
                 <GameItem id={item.id} item={item} key={`${item.title}_${item.id}`}/>
             ))
         }
-            
 </>)
 }
 export default HomePage
